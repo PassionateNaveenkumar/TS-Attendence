@@ -22,12 +22,15 @@
   {
    "fieldname": "employee_id",
    "fieldtype": "Data",
-   "label": "Employee Id"
+   "label": "Employee Id",
+   "reqd": 1
   },
   {
    "fieldname": "date",
    "fieldtype": "Date",
-   "label": "Date"
+   "in_list_view": 1,
+   "label": "Date",
+   "reqd": 1
   },
   {
    "fieldname": "in_time",
@@ -42,7 +45,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-12-16 11:49:36.784937",
+ "modified": "2021-12-17 11:59:59.822521",
  "modified_by": "Administrator",
  "module": "Hm1",
  "name": "TS Attendence",

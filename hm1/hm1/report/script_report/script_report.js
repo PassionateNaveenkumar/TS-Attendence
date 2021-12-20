@@ -4,6 +4,11 @@
 
 frappe.query_reports["Script Report"] = {
 	"filters": [
-
+		{
+		fieldname:"date",
+		label: __("Date"),
+		fieldtype: "Date",
+		default: frappe.defaults.get_user_default("date")
+	}
 	]
 };
